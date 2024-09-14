@@ -1,8 +1,8 @@
 Basic Shell Script to Make Pod Administration Easier, This Version is Specifically Designed for MicroK8s Enviornment
 
 Script Demo
-
-ifs@cen-cloudapp:~$ ./pod_functions.sh
+```
+bash:~$ ./pod_functions.sh
 Enter namespace name (default is 'default'):
 
 =================================================
@@ -30,3 +30,4 @@ Kubernetes Pod Management Menu
 4. Kill Pod by Scaling Pod to 0
 5. Exit
 Choose an option [1-5]:
+```
