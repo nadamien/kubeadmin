@@ -1,5 +1,9 @@
 Basic Shell Script to Make Pod Administration Easier, This Version is Specifically Designed for MicroK8s Enviornment
 
+If you want use it as a generic script you can remove the following "microk8s before each kubectl command"
+
+```i.e.microk8s kubectl get pods -n "$namespace"```
+
 Script Demo
 ```
 bash:~$ ./pod_functions.sh
